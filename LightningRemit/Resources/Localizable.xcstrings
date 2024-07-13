@@ -1,0 +1,705 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " "
+          }
+        }
+      }
+    },
+    "%.2f %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$.2f %2$@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$.2f %2$@"
+          }
+        }
+      }
+    },
+    "%@ " : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ "
+          }
+        }
+      }
+    },
+    "%@ sats" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n%lld сб"
+          }
+        }
+      }
+    },
+    "%lld sats " : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n%lld сб"
+          }
+        }
+      }
+    },
+    "02cdb764d144d51bab3b4d3ff425af7ca7d82de380ed2d402f7feecf744804ea5e" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "02cdb764d144d51bab3b4d3ff425af7ca7d82de380ed2d402f7feecf744804ea5e"
+          }
+        }
+      }
+    },
+    "03a5b467d7f...4c2b099b8250c" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "03a5b467d7f...4c2b099b8250c"
+          }
+        }
+      }
+    },
+    "45.79.52.207:9735" : {
+
+    },
+    "100% open-source & open-design" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100% открытый исходный код и открытый дизайн"
+          }
+        }
+      }
+    },
+    "127.0.0.1:8081" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "127.0.0.1:8081"
+          }
+        }
+      }
+    },
+    "172.18.0.2:9735" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "172.18.0.2:9735"
+          }
+        }
+      }
+    },
+    "182.18.0.2:9735" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "182.18.0.2:9735"
+          }
+        }
+      }
+    },
+    "02465ed5be53d04fde66c9418ff14a5f2267723810176c9212b722e542dc1afb1b" : {
+
+    },
+    "10000" : {
+
+    },
+    "10600" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10600"
+          }
+        }
+      }
+    },
+    "70000" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "70000"
+          }
+        }
+      }
+    },
+    "A simple bitcoin wallet for your enjoyment." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nПростой биткойн-кошелек для вашего удовольствия."
+          }
+        }
+      }
+    },
+    "About" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "О"
+          }
+        }
+      }
+    },
+    "Account Settings" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки учетной записи"
+          }
+        }
+      }
+    },
+    "Add Peer" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить пир"
+          }
+        }
+      }
+    },
+    "Address" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nАдрес"
+          }
+        }
+      }
+    },
+    "Amount: " : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nКоличество:"
+          }
+        }
+      }
+    },
+    "Balance" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nБаланс"
+          }
+        }
+      }
+    },
+    "Built for Devpost 2024 Bitcoin Hackathon." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nСоздано для биткойн-хакатона Devpost 2024."
+          }
+        }
+      }
+    },
+    "Channel" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nКанал"
+          }
+        }
+      }
+    },
+    "Channel Details" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nПодробности о канале"
+          }
+        }
+      }
+    },
+    "Connect Peer" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nПодключить одноранговый узел"
+          }
+        }
+      }
+    },
+    "Connected" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nСвязанный"
+          }
+        }
+      }
+    },
+    "Content View" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nПросмотр контента"
+          }
+        }
+      }
+    },
+    "Create a new wallet address" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nСоздайте новый адрес кошелька"
+          }
+        }
+      }
+    },
+    "Dark Mode" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nТемный режим"
+          }
+        }
+      }
+    },
+    "Disconnect Channel" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отключить канал"
+          }
+        }
+      }
+    },
+    "Enter a bitcoin address or invoice" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите биткойн-адрес или счет-фактуру"
+          }
+        }
+      }
+    },
+    "Expiry time : " : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nСрок годности:"
+          }
+        }
+      }
+    },
+    "Failed" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nНеуспешный"
+          }
+        }
+      }
+    },
+    "General" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Общий"
+          }
+        }
+      }
+    },
+    "ID:" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ИДЕНТИФИКАТОР:"
+          }
+        }
+      }
+    },
+    "Invoice" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nСчет"
+          }
+        }
+      }
+    },
+    "IP Address :" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nАйпи адрес :"
+          }
+        }
+      }
+    },
+    "Key" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nКлюч"
+          }
+        }
+      }
+    },
+    "Lightning Remit" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nМолния Ремит"
+          }
+        }
+      }
+    },
+    "List Channel" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nСписок каналов"
+          }
+        }
+      }
+    },
+    "List Peers" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nПолучение списка пиров"
+          }
+        }
+      }
+    },
+    "No Payments" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет платежей"
+          }
+        }
+      }
+    },
+    "No Peers" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет аналогов"
+          }
+        }
+      }
+    },
+    "Node ID" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Идентификатор узла"
+          }
+        }
+      }
+    },
+    "Node is not running" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nУзел не запущен"
+          }
+        }
+      }
+    },
+    "Node is running" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nУзел работает"
+          }
+        }
+      }
+    },
+    "Not Connected" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nНе подключен"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nХОРОШО"
+          }
+        }
+      }
+    },
+    "Onchain Receive Address" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Адрес получения ончейна"
+          }
+        }
+      }
+    },
+    "Open a channel" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть канал"
+          }
+        }
+      }
+    },
+    "Open Channel" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nОткрытый канал"
+          }
+        }
+      }
+    },
+    "Paste" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nВставить"
+          }
+        }
+      }
+    },
+    "PASTE FROM CLIPBOARD" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ВСТАВИТЬ ИЗ БУФЕРА ОБМЕНА ОБМЕНА"
+          }
+        }
+      }
+    },
+    "Payment Hash" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nХэш платежа"
+          }
+        }
+      }
+    },
+    "Peers" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nсверстники"
+          }
+        }
+      }
+    },
+    "pending" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nв ожидании"
+          }
+        }
+      }
+    },
+    "PubKey :" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nПубличный ключ:"
+          }
+        }
+      }
+    },
+    "Received" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nПолученный"
+          }
+        }
+      }
+    },
+    "sats" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sats"
+          }
+        }
+      }
+    },
+    "Sats" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nСатс"
+          }
+        }
+      }
+    },
+    "Scan" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сканировать"
+          }
+        }
+      }
+    },
+    "Send" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nОтправлять"
+          }
+        }
+      }
+    },
+    "Sent" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отправил"
+          }
+        }
+      }
+    },
+    "Sent!" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nОтправил!"
+          }
+        }
+      }
+    },
+    "Terminate Peer" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Завершить одноранговое соединение"
+          }
+        }
+      }
+    },
+    "To" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nК"
+          }
+        }
+      }
+    },
+    "Transactions" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Транзакции"
+          }
+        }
+      }
+    },
+    "v0.1.0-alpha" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "v0.1.0-alpha"
+          }
+        }
+      }
+    },
+    "Your wallet, your coins" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш кошелек, ваши монеты"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
