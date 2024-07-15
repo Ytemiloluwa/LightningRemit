@@ -3,6 +3,12 @@
   "strings" : {
     "" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " "
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11,24 +17,14 @@
         }
       }
     },
-    "%.2f %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$.2f %2$@"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$.2f %2$@"
-          }
-        }
-      }
-    },
     "%@ " : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ "
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39,37 +35,44 @@
     },
     "%@ sats" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ sats"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\n%lld сб"
+            "value" : "%@ sats"
           }
         }
       }
     },
-    "%lld sats " : {
+    "%@ sats " : {
       "localizations" : {
-        "ru" : {
+        "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\n%lld сб"
+            "value" : "%@ sats "
           }
-        }
-      }
-    },
-    "02cdb764d144d51bab3b4d3ff425af7ca7d82de380ed2d402f7feecf744804ea5e" : {
-      "extractionState" : "stale",
-      "localizations" : {
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "02cdb764d144d51bab3b4d3ff425af7ca7d82de380ed2d402f7feecf744804ea5e"
+            "value" : "%@ sats "
           }
         }
       }
     },
     "03a5b467d7f...4c2b099b8250c" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "03a5b467d7f...4c2b099b8250c"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -79,10 +82,29 @@
       }
     },
     "45.79.52.207:9735" : {
-
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "45.79.52.207:9735"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "45.79.52.207:9735"
+          }
+        }
+      }
     },
     "100% open-source & open-design" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100% 오픈 소스 및 오픈 디자인"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -91,19 +113,14 @@
         }
       }
     },
-    "127.0.0.1:8081" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "127.0.0.1:8081"
-          }
-        }
-      }
-    },
     "172.18.0.2:9735" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "172.18.0.2:9735"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -114,6 +131,12 @@
     },
     "182.18.0.2:9735" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "182.18.0.2:9735"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -123,13 +146,45 @@
       }
     },
     "02465ed5be53d04fde66c9418ff14a5f2267723810176c9212b722e542dc1afb1b" : {
-
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "02465ed5be53d04fde66c9418ff14a5f2267723810176c9212b722e542dc1afb1b"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "02465ed5be53d04fde66c9418ff14a5f2267723810176c9212b722e542dc1afb1b"
+          }
+        }
+      }
     },
     "10000" : {
-
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10000"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10000"
+          }
+        }
+      }
     },
     "10600" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10600"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -138,29 +193,30 @@
         }
       }
     },
-    "70000" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "70000"
-          }
-        }
-      }
-    },
     "A simple bitcoin wallet for your enjoyment." : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "당신의 즐거움을 위한 간단한 비트코인 ​​지갑입니다."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nПростой биткойн-кошелек для вашего удовольствия."
+            "value" : "Простой биткойн-кошелек для вашего удовольствия."
           }
         }
       }
     },
     "About" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "에 대한"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -171,6 +227,12 @@
     },
     "Account Settings" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "계정 설정"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -181,6 +243,12 @@
     },
     "Add Peer" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "피어 추가"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -191,116 +259,188 @@
     },
     "Address" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "주소"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nАдрес"
+            "value" : "Адрес"
           }
         }
       }
     },
     "Amount: " : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "양:"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nКоличество:"
+            "value" : "Количество:"
           }
         }
       }
     },
     "Balance" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "균형"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nБаланс"
+            "value" : "Баланс"
           }
         }
       }
     },
     "Built for Devpost 2024 Bitcoin Hackathon." : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devpost 2024 Bitcoin Hackathon을 위해 제작되었습니다."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nСоздано для биткойн-хакатона Devpost 2024."
+            "value" : "Создано для биткойн-хакатона Devpost 2024."
           }
         }
       }
     },
     "Channel" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "채널"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nКанал"
+            "value" : "Канал"
           }
         }
       }
     },
     "Channel Details" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n채널 세부정보"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nПодробности о канале"
+            "value" : "Подробности о канале"
           }
         }
       }
     },
     "Connect Peer" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n피어 연결"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nПодключить одноранговый узел"
+            "value" : "Подключить одноранговый узел"
           }
         }
       }
     },
     "Connected" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n연결됨"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nСвязанный"
+            "value" : "Связанный"
           }
         }
       }
     },
     "Content View" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "콘텐츠 보기"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nПросмотр контента"
+            "value" : "Просмотр контента"
           }
         }
       }
     },
     "Create a new wallet address" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새 지갑 주소 만들기"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nСоздайте новый адрес кошелька"
+            "value" : "Создайте новый адрес кошелька"
           }
         }
       }
     },
     "Dark Mode" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다크 모드"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nТемный режим"
+            "value" : "Темный режим"
           }
         }
       }
     },
     "Disconnect Channel" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "채널 연결 끊기"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -311,6 +451,12 @@
     },
     "Enter a bitcoin address or invoice" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비트코인 주소나 송장을 입력하세요"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -321,26 +467,44 @@
     },
     "Expiry time : " : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "만료 시간:"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nСрок годности:"
+            "value" : "Срок годности:"
           }
         }
       }
     },
     "Failed" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "실패한"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nНеуспешный"
+            "value" : "Неуспешный"
           }
         }
       }
     },
     "General" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "일반적인"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -351,30 +515,48 @@
     },
     "ID:" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ID:"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ИДЕНТИФИКАТОР:"
+            "value" : "ID"
           }
         }
       }
     },
     "Invoice" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "송장"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nСчет"
+            "value" : "Счет"
           }
         }
       }
     },
     "IP Address :" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IP Address :"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nАйпи адрес :"
+            "value" : "Айпи адрес :"
           }
         }
       }
@@ -382,46 +564,76 @@
     "Key" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "열쇠"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nКлюч"
+            "value" : "Ключ"
           }
         }
       }
     },
     "Lightning Remit" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lightning Remit"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nМолния Ремит"
+            "value" : "Lightning Remit"
           }
         }
       }
     },
     "List Channel" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "채널 나열"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nСписок каналов"
+            "value" : "Список каналов"
           }
         }
       }
     },
     "List Peers" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "피어 나열"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nПолучение списка пиров"
+            "value" : "Получение списка пиров"
           }
         }
       }
     },
     "No Payments" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지불 없음"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -432,6 +644,12 @@
     },
     "No Peers" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "피어 없음"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -442,6 +660,12 @@
     },
     "Node ID" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "노드 ID"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -452,46 +676,76 @@
     },
     "Node is not running" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "노드가 실행되고 있지 않습니다."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nУзел не запущен"
+            "value" : "Узел не запущен"
           }
         }
       }
     },
     "Node is running" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "노드가 실행 중입니다."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nУзел работает"
+            "value" : "Узел работает"
           }
         }
       }
     },
     "Not Connected" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결되지 않은"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nНе подключен"
+            "value" : "Не подключен"
           }
         }
       }
     },
     "OK" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "좋아요"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nХОРОШО"
+            "value" : "ХОРОШО"
           }
         }
       }
     },
     "Onchain Receive Address" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "온체인 수신 주소"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -502,6 +756,12 @@
     },
     "Open a channel" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "채널 열기"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -512,26 +772,44 @@
     },
     "Open Channel" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "오픈 채널"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nОткрытый канал"
+            "value" : "Открытый канал"
           }
         }
       }
     },
     "Paste" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "반죽"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nВставить"
+            "value" : "вставить"
           }
         }
       }
     },
     "PASTE FROM CLIPBOARD" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "클립보드에서 붙여넣기"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -542,56 +820,92 @@
     },
     "Payment Hash" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "결제 해시"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nХэш платежа"
+            "value" : "Хэш платежа"
           }
         }
       }
     },
     "Peers" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "동료"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nсверстники"
+            "value" : "сверстники"
           }
         }
       }
     },
     "pending" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "보류 중"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nв ожидании"
+            "value" : "в ожидании"
           }
         }
       }
     },
     "PubKey :" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "공개키:"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nПубличный ключ:"
+            "value" : "Публичный ключ:"
           }
         }
       }
     },
     "Received" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "받았다\n"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nПолученный"
+            "value" : "Полученный"
           }
         }
       }
     },
     "sats" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sats"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -602,16 +916,28 @@
     },
     "Sats" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sats"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nСатс"
+            "value" : "Sats"
           }
         }
       }
     },
     "Scan" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "주사"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -622,16 +948,28 @@
     },
     "Send" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "보내다\n"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nОтправлять"
+            "value" : "Отправлять"
           }
         }
       }
     },
     "Sent" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "보내다"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -642,16 +980,28 @@
     },
     "Sent!" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "전송된!"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nОтправил!"
+            "value" : "Отправил!"
           }
         }
       }
     },
     "Terminate Peer" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "피어 종료"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -662,16 +1012,28 @@
     },
     "To" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "에게"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\nК"
+            "value" : "К"
           }
         }
       }
     },
     "Transactions" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업무"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -682,6 +1044,12 @@
     },
     "v0.1.0-alpha" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "v0.1.0-alpha"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -692,6 +1060,12 @@
     },
     "Your wallet, your coins" : {
       "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "당신의 지갑, 당신의 동전"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
