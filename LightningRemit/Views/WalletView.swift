@@ -15,6 +15,7 @@ struct WalletView: View {
     @State private var isCopied = false
     @State private var showCheckmark = false
     @StateObject private var paymentsListViewModel = PaymentsListViewModel()
+    @EnvironmentObject var languageManager: LanguageManager
     
     var body: some View {
         
@@ -65,9 +66,7 @@ struct WalletView: View {
                             .lineLimit(1)
                             .minimumScaleFactor(0.5)
                         }
-                        
-                        Text("\(currencyViewModel.convertedAmount, specifier: "%.2f") \(currencyViewModel.selectedCurrency)")
-                        
+                        Text(formatCurrency(value: currencyViewModel.convertedAmount, currencyCode: currencyViewModel.selectedCurrency))
                             .font(.title)
                             .bold()
                         
@@ -80,7 +79,7 @@ struct WalletView: View {
                             
                         }
                         PaymentsListView()
-                        
+                            .environmentObject(paymentsListViewModel)
                     }
                     
                     Spacer()
@@ -94,6 +93,7 @@ struct WalletView: View {
                         viewModel.fetchOnchainPayments()
                         
                     }
+                    
                 }
                 
             }
@@ -106,5 +106,8 @@ struct WalletView: View {
 #Preview {
     
     WalletView(viewModel: WalletViewModel())
+        .environmentObject(LanguageManager.shared)
+
 }
+
 

@@ -46,7 +46,7 @@ struct PaymentsListView: View {
                                 VStack(alignment: .leading, spacing: 5.0) {
                                     HStack {
                                         let amountMsat = payment.amountMsat ?? 0
-                                        let amountSats = amountMsat
+                                        let amountSats = amountMsat.delimiter
                                         Text("\(amountSats) sats ")
                                             .font(.caption)
                                             .bold()

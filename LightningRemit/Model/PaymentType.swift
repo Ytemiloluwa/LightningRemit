@@ -27,7 +27,7 @@ enum PaymentStatus: String {
 
 struct Payment: Identifiable, Hashable {
     var id: String
-    var amountMsat: Int?
+    var amountMsat: UInt64?
     var direction: PaymentDirection
     var status: PaymentStatus
 }

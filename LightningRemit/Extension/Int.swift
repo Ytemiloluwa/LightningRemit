@@ -77,3 +77,14 @@ extension UInt64 {
         return Date(timeIntervalSince1970: TimeInterval(self))
     }
 }
+
+func formatCurrency(value: Double, currencyCode: String) -> String {
+    let formatter = NumberFormatter()
+    formatter.numberStyle = .currency
+    formatter.currencyCode = currencyCode
+    formatter.maximumFractionDigits = 2
+    formatter.minimumFractionDigits = 2
+    formatter.locale = Locale.current
+
+    return formatter.string(from: NSNumber(value: value)) ?? "\(value)"
+}

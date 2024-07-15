@@ -115,7 +115,7 @@ struct SendView: View {
                             }
                         }
                         if viewModel.amountConfirmationViewError == nil {
-                            let amountMsat = Int(numpadAmount) ?? 0 * 1000
+                            let amountMsat = UInt64(numpadAmount) ?? 0 * 1000
                             paymentListViewModel.addPayment(amountMsat: amountMsat, direction: .outbound, status: .pending)
                             
                             DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {

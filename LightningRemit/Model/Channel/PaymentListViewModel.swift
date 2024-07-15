@@ -34,7 +34,7 @@ class PaymentsListViewModel: ObservableObject {
         generateRandomPayments()
     }
     
-    func addPayment(amountMsat: Int, direction: PaymentDirection, status: PaymentStatus) {
+    func addPayment(amountMsat: UInt64, direction: PaymentDirection, status: PaymentStatus) {
         let newPayment = Payment(id: UUID().uuidString, amountMsat: amountMsat, direction: direction, status: status)
         payments.insert(newPayment, at: 0)
     

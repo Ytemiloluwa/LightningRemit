@@ -7,8 +7,8 @@
 import SwiftUI
 
 struct CurrencyView: View {
-    
-    @StateObject var viewModel = CurrencyViewModel()
+    @StateObject var viewModel =  CurrencyViewModel()
+    @EnvironmentObject var languageManager: LanguageManager
     let currencyData: [(code: String, country: String)] = [
         ("USD", "US"), ("EUR", "EU"), ("JPY", "JP"), ("GBP", "GB"), ("AUD", "AU"),
         ("CAD", "CA"), ("CHF", "CH"), ("CNY", "CN"), ("SEK", "SE"), ("NZD", "NZ"), ("NGN", "NG"),
@@ -25,9 +25,7 @@ struct CurrencyView: View {
                         Button(action: {
                             viewModel.selectedCurrency = currency.code
                             viewModel.convertToSelectedCurrency()
-                            if let language = viewModel.countryLanguageMapping[currency.country] {
-                                LanguageManager.shared.currentLanguage = language
-                            }
+                            languageManager.currentLanguage = languageForCountry(currency.country)
                         }) {
                             HStack {
                                 Text(flag(country: currency.country))
@@ -41,7 +39,7 @@ struct CurrencyView: View {
                             Text(flag(country: selectedCurrencyCountry))
                                 .font(.title)
                         }
-                        Text(viewModel.localizedString(viewModel.selectedCurrency))
+                        Text(viewModel.selectedCurrency)
                             .font(.title)
                     }
                     .padding()
@@ -54,9 +52,6 @@ struct CurrencyView: View {
             .padding(.top, 16)
             .padding(.horizontal)
         }
-        .onReceive(NotificationCenter.default.publisher(for: Notification.Name("LanguageChanged"))) { _ in
-            viewModel.objectWillChange.send()
-        }
     }
     
     // Helper function to get flag emoji
@@ -68,10 +63,37 @@ struct CurrencyView: View {
         }
         return String(s)
     }
+    
+    // Helper function to map country code to language identifier
+    func languageForCountry(_ country: String) -> String {
+        switch country {
+        case "US": return "en"
+        case "EU": return "de"
+        case "JP": return "ja"
+        case "GB": return "en"
+        case "AU": return "en"
+        case "CA": return "en"
+        case "CH": return "fr"
+        case "CN": return "zh-Hans"
+        case "SE": return "sv"
+        case "NZ": return "en"
+        case "NG": return "en"
+        case "BR": return "pt"
+        case "IN": return "hi"
+        case "MX": return "es"
+        case "ZA": return "af"
+        case "RU": return "ru"
+        case "TR": return "tr"
+        case "KR": return "ko"
+        case "TH": return "th"
+        case "AE": return "ar"
+        case "SA": return "ar"
+        default: return "en"
+        }
+    }
 }
 
-struct CurrencyView_Previews: PreviewProvider {
-    static var previews: some View {
-        CurrencyView()
-    }
+#Preview {
+    CurrencyView()
+        .environmentObject(LanguageManager.shared)
 }

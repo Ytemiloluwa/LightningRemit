@@ -12,20 +12,21 @@ import LightningDevKit
 struct LightningRemitApp: App {
     @AppStorage("isOnboarding") var isOnboarding: Bool = true
     @StateObject private var paymentsListViewModel = PaymentsListViewModel()
-
-    init() {
-        // Set the initial language
-        LanguageManager.shared.currentLanguage = LanguageManager.shared.currentLanguage
-    }
+    @StateObject private var languageManager = LanguageManager.shared
 
     var body: some Scene {
         WindowGroup {
             if isOnboarding {
                 OnboardingView(viewModel: OnboardingViewModel())
+                    .environmentObject(languageManager)
+                    .environment(\.locale, .init(identifier: languageManager.currentLanguage))
             } else {
                 TabHomeView()
                     .environmentObject(paymentsListViewModel)
+                    .environmentObject(languageManager)
+                    .environment(\.locale, .init(identifier: languageManager.currentLanguage))
             }
         }
     }
 }
+

@@ -14,6 +14,7 @@ struct SettingsView: View {
     @State private var isNotificationsEnabled = true
     @State private var isLocationEnabled = true
     @AppStorage("isDarkMode") private var isDarkMode = false
+    @Environment(\.colorScheme) var colorScheme
     
     var body: some View {
         NavigationView {
@@ -85,13 +86,17 @@ struct SettingsView: View {
             }
             
             Section(header: Text("General")) {
-                
                 Toggle(isOn: $isDarkMode.animation(), label: {
                     Text("Dark Mode")
                 })
+                .onChange(of: isDarkMode) { value in
+                    
+                }.foregroundColor(.purple)
+                
                 NavigationLink(destination: AboutView()) {
                     Text("About")
-                }
+                       // .foregroundColor(colorScheme == .dark ? .green : .primary)
+                }.foregroundColor(.purple)
             }
         }
         .listStyle(GroupedListStyle())
