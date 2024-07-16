@@ -3,6 +3,12 @@
   "strings" : {
     "" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " "
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19,6 +25,12 @@
     },
     "%@ " : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ "
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35,6 +47,12 @@
     },
     "%@ sats" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ sats"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51,6 +69,12 @@
     },
     "%@ sats " : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ sats "
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67,6 +91,12 @@
     },
     "03a5b467d7f...4c2b099b8250c" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "03a5b467d7f...4c2b099b8250c"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -83,6 +113,12 @@
     },
     "45.79.52.207:9735" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "45.79.52.207:9735"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -99,6 +135,12 @@
     },
     "100% open-source & open-design" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100% مفتوح المصدر وتصميم مفتوح"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -115,6 +157,12 @@
     },
     "172.18.0.2:9735" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "172.18.0.2:9735"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -131,6 +179,12 @@
     },
     "182.18.0.2:9735" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "182.18.0.2:9735"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -147,6 +201,12 @@
     },
     "02465ed5be53d04fde66c9418ff14a5f2267723810176c9212b722e542dc1afb1b" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "02465ed5be53d04fde66c9418ff14a5f2267723810176c9212b722e542dc1afb1b"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -163,6 +223,12 @@
     },
     "10000" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10000"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -179,6 +245,12 @@
     },
     "10600" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10600"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -195,6 +267,12 @@
     },
     "A simple bitcoin wallet for your enjoyment." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "محفظة بيتكوين بسيطة لمتعتك."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -211,6 +289,12 @@
     },
     "About" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عن"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -227,6 +311,12 @@
     },
     "Account Settings" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعدادت الحساب"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -243,6 +333,12 @@
     },
     "Add Peer" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة النظير"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -259,6 +355,12 @@
     },
     "Address" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عنوان"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -275,6 +377,12 @@
     },
     "Amount: " : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كمية:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -291,6 +399,12 @@
     },
     "Balance" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "توازن"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -307,6 +421,12 @@
     },
     "Built for Devpost 2024 Bitcoin Hackathon." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مصمم خصيصًا لـ Devpost 2024 Bitcoin Hackathon."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -323,6 +443,12 @@
     },
     "Channel" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قناة"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -339,6 +465,12 @@
     },
     "Channel Details" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تفاصيل القناة"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -355,6 +487,12 @@
     },
     "Connect Peer" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ربط الأقران"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -371,6 +509,12 @@
     },
     "Connected" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متصل"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -387,6 +531,12 @@
     },
     "Content View" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض المحتوى"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -403,6 +553,12 @@
     },
     "Create a new wallet address" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قم بإنشاء عنوان محفظة جديد"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -419,6 +575,12 @@
     },
     "Dark Mode" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوضع المظلم"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -435,6 +597,12 @@
     },
     "Disconnect Channel" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افصل القناة\n"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -451,6 +619,12 @@
     },
     "Enter a bitcoin address or invoice" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أدخل عنوان البيتكوين أو الفاتورة"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -467,6 +641,12 @@
     },
     "Expiry time : " : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وقت انتهاء الصلاحية :"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -483,6 +663,12 @@
     },
     "Failed" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فشل"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -499,6 +685,12 @@
     },
     "General" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عام"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -515,6 +707,12 @@
     },
     "ID:" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ID:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -531,6 +729,12 @@
     },
     "Invoice" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فاتورة"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -547,6 +751,12 @@
     },
     "IP Address :" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IP Address :"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -564,6 +774,12 @@
     "Key" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مفتاح"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -580,6 +796,12 @@
     },
     "Lightning Remit" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحويل البرق"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -596,6 +818,12 @@
     },
     "List Channel" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قائمة القناة"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -612,6 +840,12 @@
     },
     "List Peers" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قائمة أقرانهم"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -628,6 +862,12 @@
     },
     "No Payments" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا المدفوعات"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -644,6 +884,12 @@
     },
     "No Peers" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا أقرانهم"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -660,6 +906,12 @@
     },
     "Node ID" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Node ID"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -676,6 +928,12 @@
     },
     "Node is not running" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العقدة ليست قيد التشغيل"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -692,6 +950,12 @@
     },
     "Node is running" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العقدة قيد التشغيل"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -708,6 +972,12 @@
     },
     "Not Connected" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غير متصل"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -724,6 +994,12 @@
     },
     "OK" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نعم\n"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -740,6 +1016,12 @@
     },
     "Onchain Receive Address" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onchain تلقي العنوان"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -756,6 +1038,12 @@
     },
     "Open a channel" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اتمنا من كل زوجه قناة فتح"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -772,6 +1060,12 @@
     },
     "Open Channel" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اتمنا من كل زوجه قناة فتح"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -788,6 +1082,12 @@
     },
     "Paste" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معجون"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -804,6 +1104,12 @@
     },
     "PASTE FROM CLIPBOARD" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لصق من الحافظة"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -820,6 +1126,12 @@
     },
     "Payment Hash" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تجزئة الدفع"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -834,8 +1146,36 @@
         }
       }
     },
+    "Payment is on its way" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الدفع في طريقه"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "결제가 진행 중입니다."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оплата уже в пути"
+          }
+        }
+      }
+    },
     "Peers" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأقران"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -852,6 +1192,12 @@
     },
     "pending" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قيد الانتظار"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -868,6 +1214,12 @@
     },
     "PubKey :" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مفتاح النشر :"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -884,6 +1236,12 @@
     },
     "Received" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تلقى"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -900,6 +1258,12 @@
     },
     "sats" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sats"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -916,6 +1280,12 @@
     },
     "Sats" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sats"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -932,6 +1302,12 @@
     },
     "Scan" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مسح"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -948,6 +1324,12 @@
     },
     "Send" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يرسل"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -964,6 +1346,12 @@
     },
     "Sent" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرسل"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -980,6 +1368,12 @@
     },
     "Sent!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرسل!"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -996,6 +1390,12 @@
     },
     "Terminate Peer" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنهاء النظير"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1012,6 +1412,12 @@
     },
     "To" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ل:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1028,6 +1434,12 @@
     },
     "Transactions" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المعاملات"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1044,6 +1456,12 @@
     },
     "v0.1.0-alpha" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "v0.1.0-alpha"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1060,6 +1478,12 @@
     },
     "Your wallet, your coins" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "محفظتك، عملاتك المعدنية"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
