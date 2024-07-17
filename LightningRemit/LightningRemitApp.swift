@@ -18,8 +18,8 @@ struct LightningRemitApp: App {
         WindowGroup {
             if isOnboarding {
                 OnboardingView(viewModel: OnboardingViewModel())
-                    .environmentObject(languageManager)
-                    .environment(\.locale, .init(identifier: languageManager.currentLanguage))
+//                    .environmentObject(languageManager)
+//                    .environment(\.locale, .init(identifier: languageManager.currentLanguage))
             } else {
                 TabHomeView()
                     .environmentObject(paymentsListViewModel)
