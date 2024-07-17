@@ -18,11 +18,8 @@ struct WalletView: View {
     @EnvironmentObject var languageManager: LanguageManager
     
     var body: some View {
-        
         NavigationView {
-            
             ZStack {
-                
                 Color(uiColor: .systemBackground)
                     .ignoresSafeArea(.all)
                 
@@ -66,48 +63,35 @@ struct WalletView: View {
                             .lineLimit(1)
                             .minimumScaleFactor(0.5)
                         }
-                        Text(formatCurrency(value: currencyViewModel.convertedAmount, currencyCode: currencyViewModel.selectedCurrency))
+                        Text(formatCurrency (value: currencyViewModel.convertedAmount / 100_000_000, currencyCode: currencyViewModel.selectedCurrency))
                             .font(.title)
                             .bold()
-                        
+
                         HStack {
-                            
                             Text("Transactions")
                                 .font(.title3)
                                 .foregroundStyle(.purple)
-                            
-                            
                         }
                         PaymentsListView()
                             .environmentObject(paymentsListViewModel)
                     }
-                    
+
                     Spacer()
                 }
                 .onAppear {
-                    
                     Task {
-                        
                         viewModel.fetchBalances()
                         currencyViewModel.satsBalance = viewModel.totalBalance
                         viewModel.fetchOnchainPayments()
-                        
                     }
-                    
                 }
-                
             }
             .navigationTitle("Lightning Remit")
             
         }.navigationBarTitleDisplayMode(.automatic)
     }
-    
 }
 #Preview {
-    
     WalletView(viewModel: WalletViewModel())
         .environmentObject(LanguageManager.shared)
-
 }
-
-

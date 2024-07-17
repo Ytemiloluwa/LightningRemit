@@ -3,7 +3,11 @@ import Combine
 
 class CurrencyViewModel: ObservableObject {
     @Published var selectedCurrency: String = "USD"
-    @Published var satsBalance: UInt64 = 0
+    @Published var satsBalance: UInt64 = 0 {
+        didSet {
+            convertToSelectedCurrency()
+        }
+    }
     @Published var convertedAmount: Double = 0.0
     
     var conversionRates: [String: Double] = [:]
@@ -14,33 +18,49 @@ class CurrencyViewModel: ObservableObject {
         "US": "en", "EU": "fr", "JP": "ja", "GB": "en", "AU": "en",
         "CA": "en", "CH": "de", "CN": "zh", "SE": "sv", "NZ": "en", "NG": "en",
         "BR": "pt", "IN": "hi", "MX": "es", "ZA": "af", "RU": "ru",
-        "TR": "tr", "KR": "ko", "TH": "th", "AE": "ar", "SA": "ar"
+        "TR": "tr", "KR": "ko", "TH": "th", "AE": "ar", "SA": "ar",
+        "FRA": "fr", "ESP": "es"
     ]
     
     init() {
-        loadConversionRates()
+        fetchConversionRates()
     }
     
-    func loadConversionRates() {
-        conversionRates = [
-            "USD": 0.00058, "EUR": 0.0005, "JPY": 0.0911, "GBP": 0.000445,
-            "AUD": 0.000866, "NGN": 0.824, "CAD": 0.000787, "CHF": 0.0005,
-            "CNY": 0.0042, "SEK": 0.00021098, "NZD": 0.000958, "BRL": 0.003185,
-            "INR": 0.048208, "MXN": 0.010337, "ZAR": 0.010531, "RUB": 0.05070,
-            "TRY": 0.0020456, "KRW": 0.8066, "THB": 0.0212, "AED": 0.002121, "SAR": 0.01052
-        ]
+    func fetchConversionRates() {
+        let url = URL(string: "https://api.coingecko.com/api/v3/exchange_rates")!
+        
+        URLSession.shared.dataTaskPublisher(for: url)
+            .map { $0.data }
+            .decode(type: CoinGeckoResponse.self, decoder: JSONDecoder())
+            .map { response in
+                response.rates.mapValues { $0.value }
+            }
+            .replaceError(with: [:])
+            .receive(on: DispatchQueue.main)
+            .sink { [weak self] rates in
+                self?.conversionRates = rates
+                self?.convertToSelectedCurrency()
+            }
+            .store(in: &cancellables)
     }
     
     func convertToSelectedCurrency() {
-        guard let rate = conversionRates[selectedCurrency] else { return }
+        guard let rate = conversionRates[selectedCurrency.lowercased()] else { return }
         convertedAmount = Double(satsBalance) * rate
     }
     
     func localizedString(_ key: String) -> String {
         return NSLocalizedString(key, comment: "")
     }
-
 }
 
-
-
+struct CoinGeckoResponse: Decodable {
+    let rates: [String: Rate]
+    
+    struct Rate: Decodable {
+        let name: String
+        let unit: String
+        let value: Double
+        let type: String
+    }
+}

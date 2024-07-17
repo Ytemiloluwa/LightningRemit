@@ -94,7 +94,7 @@ struct PaymentsListView: View {
                 .listStyle(.plain)
                 .refreshable {
                     viewModel.listPayments()
-                    viewModel.addPayment(amountMsat: 4700, direction: .outbound, status: .pending)
+                    viewModel.addPayment(amountMsat: 6700, direction: .outbound, status: .pending)
                 }
             }
         }

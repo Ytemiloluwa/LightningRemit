@@ -13,7 +13,8 @@ struct CurrencyView: View {
         ("USD", "US"), ("EUR", "EU"), ("JPY", "JP"), ("GBP", "GB"), ("AUD", "AU"),
         ("CAD", "CA"), ("CHF", "CH"), ("CNY", "CN"), ("SEK", "SE"), ("NZD", "NZ"), ("NGN", "NG"),
         ("BRL", "BR"), ("INR", "IN"), ("MXN", "MX"), ("ZAR", "ZA"), ("RUB", "RU"),
-        ("TRY", "TR"), ("KRW", "KR"), ("THB", "TH"), ("AED", "AE"), ("SAR", "SA")
+        ("TRY", "TR"), ("KRW", "KR"), ("THB", "TH"), ("AED", "AE"), ("SAR", "SA"),
+        ("FRA", "FR"), ("ESP", "ES"),
     ]
     
     var body: some View {
@@ -88,6 +89,8 @@ struct CurrencyView: View {
         case "TH": return "th"
         case "AE": return "ar"
         case "SA": return "ar"
+        case "FRA": return "fr"
+        case "ESP": return "es"
         default: return "en"
         }
     }

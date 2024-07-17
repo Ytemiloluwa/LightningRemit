@@ -15,7 +15,7 @@ import BitcoinUI
 
 class SendViewModel: ObservableObject {
 
-    var networkColor = Color.gray
+    var networkColor = Color.blue
     var amountConfirmationViewError: LightningRemitError?
     @Published var sendConfirmationViewError: LightningRemitError?
     @Published var invoice: String = ""
